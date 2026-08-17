@@ -85,7 +85,7 @@ class _MainAppState extends State<MainApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '小游戏中心',
+      title: 'MiniGame',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xff7357ff)),
       ),
@@ -437,7 +437,7 @@ class _GameCenterPageState extends State<GameCenterPage> {
       animation: widget.auth,
       builder: (context, _) => Scaffold(
         appBar: AppBar(
-          title: const Text('小游戏中心'),
+          title: const Text('MiniGame'),
           actions: [
             IconButton(
               tooltip: '联机大厅',

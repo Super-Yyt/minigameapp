@@ -1,13 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:label="小游戏中心"
+        android:label="MiniGame"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic="true">
-        <meta-data
-            android:name="flutter_deeplinking_enabled"
-            android:value="false" />
         <meta-data
             android:name="flutter_deeplinking_enabled"
             android:value="false" />

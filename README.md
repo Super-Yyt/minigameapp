@@ -1,4 +1,4 @@
-# 小游戏中心 Flutter 客户端
+# MiniGame Flutter 客户端
 
 ## Deep Link
 

@@ -14,7 +14,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>小游戏中心登录</string>
+			<string>MiniGame登录</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>minigame</string>
@@ -29,7 +29,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>小游戏中心登录</string>
+			<string>MiniGame登录</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>minigame</string>

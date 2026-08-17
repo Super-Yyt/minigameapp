@@ -1,6 +1,6 @@
 {
-    "name": "小游戏中心",
-    "short_name": "小游戏中心",
+    "name": "MiniGame",
+    "short_name": "MiniGame",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#151b45",
