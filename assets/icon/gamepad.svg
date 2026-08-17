@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="900" y2="960" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151b45"/>
+      <stop offset="0.52" stop-color="#35246d"/>
+      <stop offset="1" stop-color="#0f6175"/>
+    </linearGradient>
+    <linearGradient id="pad" x1="220" y1="260" x2="820" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50e2e2"/>
+      <stop offset="0.55" stop-color="#8186f5"/>
+      <stop offset="1" stop-color="#e081e5"/>
+    </linearGradient>
+    <filter id="shadow" x="120" y="170" width="790" height="700" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="32" stdDeviation="28" flood-color="#07091c" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="236" fill="url(#bg)"/>
+  <circle cx="164" cy="166" r="132" fill="#72f1e8" opacity=".13"/>
+  <circle cx="876" cy="846" r="188" fill="#da76ee" opacity=".12"/>
+  <path d="M286 385c32-96 108-143 226-143s194 47 226 143l55 165c19 57-14 116-69 123-36 5-67-13-89-48l-35-55H430l-35 55c-22 35-53 53-89 48-55-7-88-66-69-123l49-165Z" fill="url(#pad)" filter="url(#shadow)"/>
+  <path d="M286 385c32-96 108-143 226-143s194 47 226 143l55 165c19 57-14 116-69 123-36 5-67-13-89-48l-35-55H430l-35 55c-22 35-53 53-89 48-55-7-88-66-69-123l49-165Z" fill="none" stroke="#d6f9ff" stroke-opacity=".45" stroke-width="16"/>
+  <rect x="336" y="414" width="114" height="36" rx="18" fill="#20235d"/>
+  <rect x="375" y="375" width="36" height="114" rx="18" fill="#20235d"/>
+  <circle cx="670" cy="402" r="31" fill="#fff4fc"/>
+  <circle cx="742" cy="462" r="31" fill="#fff4fc"/>
+  <circle cx="512" cy="393" r="19" fill="#20235d" opacity=".72"/>
+  <circle cx="512" cy="484" r="19" fill="#20235d" opacity=".72"/>
+  <path d="M512 412v53M489 435h46" stroke="#d9fbff" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="293" cy="695" r="17" fill="#73f1df"/>
+  <circle cx="731" cy="695" r="17" fill="#e886e8"/>
+</svg>

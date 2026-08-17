@@ -1,0 +1,46 @@
+name: minigameapp
+description: "中文优先的轻量小游戏中心"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  app_links: ^6.4.1
+  flutter_secure_storage: ^9.2.4
+  http: ^1.5.0
+  package_info_plus: ^9.0.1
+  url_launcher: ^6.3.2
+  web: ^1.1.1
+  webview_flutter: ^4.13.0
+  webview_flutter_web: ^0.2.3+4
+  webview_flutter_windows: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  image_path: assets/icon/gamepad.png
+  android: true
+  ios: true
+  web:
+    generate: true
+    image_path: assets/icon/gamepad.png
+    background_color: "#151b45"
+    theme_color: "#35246d"
+  windows:
+    generate: true
+    image_path: assets/icon/gamepad.png
+    icon_size: 256
+  macos:
+    generate: true
+    image_path: assets/icon/gamepad.png
